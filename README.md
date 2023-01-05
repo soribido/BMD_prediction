@@ -42,12 +42,12 @@ Grad-RAMP multiplied each gradient with respect to every pixel $(i,j)$ with the 
 
 $$L_{Grad-RAM}\left(i,j\right)=\left|\sum_{k}{\alpha_kA_k\left(i,j\right)}\right|,\ \ \ \ \alpha_k=\frac{1}{Z}\sum_{i}\sum_{j}\frac{\partial y}{\partial A_k(i,j)}$$
 
-$$L_{Grad-RAMP}\left(i,j\right)=\left|\sum_{k}{g_k\odot A_k\left(i,j\right)}\right|,\ \ \ \ g_k=\ frac{\partial y}{\partial A_k(i,j)}$$
+$$L_{Grad-RAMP}\left(i,j\right)=\left|\sum_{k}{g_k\odot A_k\left(i,j\right)}\right|,\ \ \ \ g_k=\frac{\partial y}{\partial A_k(i,j)}$$
   
 * $k$ : Channel index of the convolutional layer  
-* $\alpha_{k}(i,j)$ : $k$th weight  
+* $\alpha_{k}(i,j)$ : $k$ th weight  
 * *Z* : The number of pixels in the feature map  
-* $\A_{k}(i,j)$ : Feature map of the last convolutional layer  
+* $A_{k}(i,j)$ : Feature map of the last convolutional layer  
 * $\odot$ : Hadamard product operator 
 
 * **XAI result**  
