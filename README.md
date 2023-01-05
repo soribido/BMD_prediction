@@ -1,7 +1,7 @@
 # BMD_prediction
 BMD(bone mineral density) prediction in CT images based on deep residual CNN + XAI Analysis
   
-Prediction of bone mineral density in CT using deep learning with explainability (Accepted on Dec.2022, Frontiers in Physiology)
+Prediction of bone mineral density in CT using deep learning with explainability (Accepted on Dec. 2022, Frontiers in Physiology)
 
 ## Workflow
 ![workflow](/readme-figure/workflow.png)
@@ -28,7 +28,7 @@ We achieved a maximum correlation coefficient of 0.905 for the test set.
 * **Estimation Result**  
 
 <!-- ![pred_result](/readme-figure/prediction_result.png){: width="50%",height="50%"} -->
-<img src="https://github.com/soribido/BMD_prediction/readme-figure/prediction_result.png" width="50%",height="50%">
+<img src="./readme-figure/prediction_result.png", width="50%",height="50%">
 
 
 ## XAI Interpretation
@@ -52,5 +52,5 @@ $$L_{Grad-RAMP}\left(i,j\right)=\left|\sum_{k}{g_k\odot A_k\left(i,j\right)}\rig
 
 * **XAI result**  
 <!-- ![xai](/readme-figure/xai.png){: width="80%",height="80%"} -->
-<img src="https://github.com/soribido/BMD_prediction/readme-figure/xai.png" width="80%",height="80%">
+<img src="./readme-figure/xai.png", width="80%",height="80%">
  
