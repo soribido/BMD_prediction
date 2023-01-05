@@ -27,7 +27,7 @@ We achieved a maximum correlation coefficient of 0.905 for the test set.
 
 * **Estimation Result**  
 
-![pred_result](/readme-figure/prediction_result.png){: width="50%"",height="50%""}
+![pred_result](/readme-figure/prediction_result.png){: width="50%",height="50%"}
 
 
 
@@ -51,5 +51,5 @@ $$L_{Grad-RAMP}\left(i,j\right)=\left|\sum_{k}{g_k\odot A_k\left(i,j\right)}\rig
 * $\odot$ : Hadamard product operator 
 
 * **XAI result**  
-![xai](/readme-figure/xai.png){: width="80%"",height="80%""}    
+![xai](/readme-figure/xai.png){: width="80%",height="80%"}
  
