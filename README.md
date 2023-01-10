@@ -2,7 +2,7 @@
 Bone mineral density(BMD) prediction in CT images based on deep residual CNN + XAI Interpretation
 
 **Paper**   
-Prediction of bone mineral density in CT using deep learning with explainability (Accepted on Dec. 2022, Frontiers in Physiology)
+[Kang, J. W., Park, C., Lee, D. E., Yoo, J. H., & Kim, M. (2023). Prediction of bone mineral density in CT using deep learning with explainability. Frontiers in Physiology, 13, 2735.](https://www.frontiersin.org/articles/10.3389/fphys.2022.1061911/full)
 
 ## Workflow
 ![workflow](/readme-figure/workflow.png)
